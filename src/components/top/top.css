@@ -1,0 +1,167 @@
+.top {
+    width: 1440px;
+    height: 741px;
+    margin: 0px auto;
+    background: linear-gradient(234.81deg, rgba(255, 255, 255, 0.0001) -11.69%, #C9F0FF 93.63%);
+
+
+}
+
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+    height: 48px;
+    margin: 48px auto 0px auto;
+    align-items: center;
+}
+
+.head img {
+    width: 200px;
+    height: 31px;
+}
+
+.head button {
+    width: 200px;
+    height: 48px;
+    background-color: #ffff;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 3px 11px 0px #00000018;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: 1270px;
+    margin: 71px auto 0px auto;
+}
+
+.herofirst {
+    height: 321px;
+    width: 536px;
+    margin-top: 86px;
+}
+
+.herofirst h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.herofirst p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 32px;
+}
+
+.herofirst button {
+    width: 280px;
+    height: 56px;
+    border-radius: 100px;
+    margin-top: 32px;
+    background-color: rgb(255, 82, 193);
+    font-weight: 700;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    cursor: pointer;
+    border: none;
+
+}
+
+.herosec img {
+    height: 482px;
+    width: 680px;
+}
+
+/* responsivness */
+
+@media screen and (max-width: 375px) {
+    .top {
+        width: 304px;
+        height: auto;
+        margin: 0px auto;
+
+    }
+
+    .head {
+        Width: 100%;
+        Height: 24px;
+        margin-top: 27px;
+    }
+
+    .head img {
+        width: 106px;
+        height: 16px;
+    }
+
+    .head button {
+        width: 51px;
+        height: 14px;
+        font-family: Open Sans;
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 13.62px;
+
+    }
+
+    .hero {
+        flex-direction: column;
+        width: 304px;
+        height: 553px;
+        margin: 80px auto 0px auto;
+
+    }
+
+    .herofirst {
+        height: 300px;
+        width: auto;
+        margin-top: 0px;
+    }
+
+    .herosec img {
+        width: 296px;
+        height: 209px;
+
+    }
+
+    .herofirst h1 {
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .herofirst p {
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+
+    }
+
+    .herofirst button {
+        width: 240px;
+        height: 40px;
+        font-family: Open Sans;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16.34px;
+        text-align: center;
+        margin: 32px;
+
+    }
+}
